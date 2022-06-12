@@ -75,11 +75,12 @@ public class Horarios extends Cartelera{
                 DR_Strange_2_ophs();
             break;
             default: System.err.println("!Error¡. No ingreso ninguna de las opciones");
+            }
         }
         public void DR_Strange_2_ophs(){
-            System.out.print("1. 14:50");
-            System.out.print("2. 19:50");
-            System.out.print("Elija el Horario: ");
+            System.out.println("1. 14:50");
+            System.out.println("2. 19:50");
+            System.out.println("Elija el Horario: ");
         int Op;
         String Hs;
         Scanner input = new Scanner(System.in);
@@ -196,7 +197,8 @@ public class Horarios extends Cartelera{
                 break;
                 default: System.err.println("!Error¡ No eligio ninguna de las opciones");
             }
-        }public void Sonic2_dia(){
+        }
+        public void Sonic2_dia(){
             Añadir_Dias();
             Scanner input = Scanner(System.in);
             int Op = input.nextInt();
@@ -244,10 +246,10 @@ public class Horarios extends Cartelera{
                 default: System.err.println("!Error¡ No ingreso ninguna de las opciones");
                 break;
             }
-        }   
+        }
         public void TopGunMaverick(){
             Añadir_Dias();
-            Scanner input = new Scanner()
+            Scanner input = new Scanner();
             int Op = input.nextInt();
             switch (Op) {
                 case 1:
@@ -293,4 +295,4 @@ public class Horarios extends Cartelera{
             default: System.err.println("!Error¡ No eligio ninguna Opcion");
             }
         }
-}
+    }

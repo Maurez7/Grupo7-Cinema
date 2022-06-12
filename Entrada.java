@@ -42,7 +42,7 @@ public class Entrada {
                 Entradas2X1();
             break;
             case 5:
-
+                EntradaEspeciales();
             break;
             default: System.err.println("!Error¡ No ingreso niguna de las opciones");
         }
@@ -90,16 +90,20 @@ public class Entrada {
         System.out.println("3. JUBILADOS");
         System.out.print("Elige una opcion: ");
         Scanner input = new Scanner(System.in);
+        String Entrada;
         int Op = input.nextInt();
         switch(Op){
             case 1:
-
+                Entrada = "BENEFICIO ESPECIAL DISCAPACIDAD $880";
+                System.out.println(Entrada);
             break;
             case 2:
-
+                Entrada = "BENEFICIO MENOR $880";
+                System.out.println(Entrada);
             break;
             case 3:
-
+                Entrada = "BENEFICIO JUBILADOS $880";
+                System.out.println();
             break;
             default: System.out.println("!Error¡ No eligio ninguna de las opciones");
         }
