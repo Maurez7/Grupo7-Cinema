@@ -59,4 +59,98 @@ public class Candy {
             default: System.err.println("!Error! No eligio ninguna de las opciones");
         }
     }
+    public void COMBOS(){
+        System.out.println("COMBOS");
+        System.out.println("1. COMBO MEGA RECARGADO $1570");
+        System.out.println("2. COMBO MEGA $1320");
+        System.out.println("3. COMBO NACHOS $810");
+        System.out.println("4. COMBO MEGA INDIVIDUAL $930");
+        System.out.println("Elige una opcion");
+        Scanner input = new Scanner(System.in);
+        int Op = input.nextInt();
+        String Candy;
+        switch(Op){
+            case 1:
+                Candy = "COMBO MEGA RECARGADO $1570";    
+                System.out.println("Candy");
+                break;
+            case 2:
+                Candy = "COMBO MEGA $1320";
+                System.out.println("Candy");
+            case 3:
+                Candy = "COMBO NACHOS $810";
+                System.out.println("Candy");
+            break;
+            case 4:
+                Candy = "COMBO MEGA INDIVIDUAL $930";
+                System.out.println("Candy"); 
+            break;
+            default: System.err.println("!Error¡ NO eligio ninguna de las opciones");
+        }
+    }
+    public void Pochoclos(){
+        System.out.println("POCHOCLOS");
+        System.out.println("1. BALDE POCHOLOS $500");
+        System.out.println("2. POP MEDIANO $500");
+        System.out.print("Elige una opcion: ");
+        Scanner input = new Scanner(System.in);
+        int Op = input.nextInt();
+        String Candy;
+        switch(Op){
+            case 1:
+            Candy="BALDE POCHOLOS $500";
+            System.out.println(Candy);
+            break;
+            case 2:
+            Candy = "POP MEDIANO $500";
+            System.out.println(Candy);
+            break;
+            default: System.err.println("!Error¡ No ingreso niguna de la opciones");
+        }
+    }
+    public void Bebidas(){
+        String Candy;
+        Candy = "BEBIDA GRANDE $500";
+        System.out.println(Candy);
+    }
+    public void Snacks(){
+        String Candy;
+        System.out.println("SNACKS");
+        System.out.println("1. NACHOS CON QUESO $640");
+        System.out.println("2. PANCHO $400");
+        System.out.print("Elige una opcion: ");
+        Scanner input = new Scanner(System.in);
+        int Op = input.nextInt();
+        switch(Op){
+            case 1:
+            Candy = "NACHOS CON QUESO $640";
+            System.out.println(Candy);
+            break;
+            case 2:
+            Candy = "PANCHO $400";
+            System.out.println(Candy);
+            break;
+            default: System.err.println("!Error¡ No ingreso niguna de la opciones");
+        }
+    }
+    public void Golosinas(){
+        String Candy;
+        System.out.println("GOLOSINAS");
+        System.out.println("1. GOLOSINAS SNICKERS $450");
+        System.out.println("2. ROCKLETS CHICOS $300");
+        System.out.println("Elige una opcion: ");
+        Scanner input = new Scanner(System.in);
+        int Op = input.nextInt();
+        switch(Op){
+            case 1:
+                Candy = "GOLOSINAS SNICKERS $450";
+                System.out.println(Candy);
+                break;
+            case 2:
+                Candy = "ROCKLETS CHICOS $300";
+                System.out.println(Candy);
+                break;
+            default: System.err.println("!Error¡ No ingreso niguna de la opciones");
+        }
+    }
 }
