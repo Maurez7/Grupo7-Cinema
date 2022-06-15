@@ -13,7 +13,35 @@ public class Candy {
         System.out.println("6. SNACKS");
         System.out.println("7. GOLOSINAS");
         System.out.println("8. SIN CANDY");
-
+        Scanner input = new Scanner(System.in);
+        System.out.print("Elija una opcion: ");
+        int Op = input.nextInt();
+        switch(Op){
+            case 1:
+            RECOMENDADO();
+            break;
+            case 2:
+            COMBO_SUSCRIPCION_FAN();
+            break;
+            case 3:
+            COMBOS();
+            break;
+            case 4:
+            Pochoclos();
+            break;
+            case 5:
+            Bebidas();
+            break;
+            case 6:
+            Snacks();
+            break;
+            case 7:
+            Golosinas();
+            break;
+            case 8:
+                System.out.println("SIN POCHOCLOS");
+            break;
+        }
     } 
     public void RECOMENDADO(){
         System.out.println("RECOMENDADO");

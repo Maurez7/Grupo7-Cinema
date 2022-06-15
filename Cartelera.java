@@ -43,7 +43,7 @@ public class Cartelera{
             System.out.println(i + ". " + Peliculas_lis[i]);
         }
     }
-    public void Mostrar_Descripcion(String Genero, String Duracion, String Reparto, String Director ){
+    public void Mostrar_Descripcion(String Genero, String Duracion, String Reparto, String Director){
         System.out.println("Genero: " + Genero);
         System.out.println("Duracion: " + Duracion);
         System.out.println("Reparto: " + Reparto);
@@ -280,9 +280,9 @@ public class Cartelera{
         System.out.println("1. JURASSIC WORLD DOMINIO");
         System.out.println("2. LIGHTYEAR");
         System.out.println("3. TOP GUN MAVERICK");
+        System.out.println("¿Cual pelicula quieres ver?");
         int Op;
         Scanner input = new Scanner(System.in);
-        System.out.prinln("¿Cual pelicula quieres ver?");
         Op = input.nextInt();
         switch(Op){
             case 1:

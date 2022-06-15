@@ -60,6 +60,6 @@ public class Payment {
         Mes = input.nextInt();
         System.out.println("INGRESE LOS DOS ULTIMOS DIGITOS DEL AÑO DE CADUCIDAD");
         System.out.print(Mes + "/");
-        Año = input.nextLine();
+        Año = input.nextInt();
     }
 }

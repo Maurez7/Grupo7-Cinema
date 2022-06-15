@@ -3,7 +3,6 @@ import java.util.Random;
 public class Asientos {
     
     public Asientos(){
-
     }
     public void Sala(){
         String matriz[][] = new String[11][17];
@@ -269,8 +268,9 @@ public class Asientos {
             }
         }
         if(c == true){
-            int Sala = random.nextInt(8 + 1) + 1;
-            System.out.println("Sala: " + Sala);
+            Random random = new Random();
+		    int value = random.nextInt(8 + 1) + 1;
+            System.out.println("Sala: " + value);
             System.out.println("Asiento : " + Op + Fila);
         }
     }

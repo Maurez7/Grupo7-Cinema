@@ -6,6 +6,36 @@ public class Horarios extends Cartelera{
     public String[] Horarios;
     public Horarios(){
     }
+    public void Elige_Horario(){
+        Añadir_Dias();
+        System.out.println("Elige el dia a desear: ");
+        Scanner input = new Scanner(System.in);
+        int Op = input.nextInt();
+        switch(Op){
+            case 1:
+                Elijo_Horario();
+            break;
+            case 2:
+                Elijo_Horario();
+            break;
+            case 3:
+                Elijo_Horario();
+            break;
+            case 4:
+                Elijo_Horario();
+            break;
+            case 5:
+                Elijo_Horario();
+            break;
+            case 6:
+                Elijo_Horario();
+            break;
+            case 7:
+                Elijo_Horario();
+            break;
+            default: System.out.println("No eligio ninguna de las opciones");
+        }
+    }
     public void Añadir_Dias(){
         Dias = new String [8];
         Dias[1] = "Lunes";
@@ -18,7 +48,6 @@ public class Horarios extends Cartelera{
         for(int i=1;i<=7;i++){
             System.out.println(i + ". " + Dias[i]);
         }
-        System.out.println("Elige el dia a desear: ");
     }
     public void Elijo_Horario(){
         Horarios = new String [14];
@@ -35,8 +64,15 @@ public class Horarios extends Cartelera{
         Horarios[11] = "21:00";
         Horarios[12] = "22:00";
         Horarios[13] = "23:00";
+        for(int i=1;i<=7;i++){
+            System.out.println(i + ". " + Horarios[i]);
+        }
+        System.out.println("Elija un horario");
+        Scanner input = new Scanner(System.in);
+        int Op = input.nextInt();
+        System.out.println("La Hora elegida es: " + Horarios[Op] + "hs");
     }
-    public void Cadaver_Exquisito(){
+    /*public void Cadaver_Exquisito(){
         Añadir_Dias();
         System.out.print("Elija el DIa: ");
         String Hs = "22:50";
@@ -294,5 +330,5 @@ public class Horarios extends Cartelera{
             break;
             default: System.err.println("!Error¡ No eligio ninguna Opcion");
             }
-        }
+        }*/
     }
