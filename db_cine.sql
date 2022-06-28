@@ -5,6 +5,14 @@
 
 CREATE DATABASE cine;
 USE cine;
+
+CREATE TABLE usuarios(
+    id_usuario      INT(255) AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    nombre_usuario  VARCHAR(255) NOT NULL,
+    pass_usuario    VARCHAR(255) NOT NULL,
+    correo_usuario  VARCHAR(255) NOT NULL
+)ENGINE=InnoDB;
+
 CREATE TABLE carteleras(
     id_cartelera    INT(255) AUTO_INCREMENT PRIMARY KEY NOT NULL,
     num_cartelera   INT(10) NOT NULL
