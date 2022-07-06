@@ -258,7 +258,7 @@ public class Cartelera{
         System.out.println("3. LIGHTYEAR");
         int Op;
         Scanner input = new Scanner(System.in);
-        System.out.prinln("¿Cual pelicula quieres ver?");
+        System.out.println("¿Cual pelicula quieres ver?");
         Op = input.nextInt();
         switch(Op){
             case 1:
@@ -282,7 +282,7 @@ public class Cartelera{
         System.out.println("3. TOP GUN MAVERICK");
         int Op;
         Scanner input = new Scanner(System.in);
-        System.out.prinln("¿Cual pelicula quieres ver?");
+        System.out.println("¿Cual pelicula quieres ver?");
         Op = input.nextInt();
         switch(Op){
             case 1:
@@ -320,9 +320,9 @@ public class Cartelera{
         }
     }
     public void Peliculas_DBOX(){
-        System.out.printtln("3. DOCTOR STRANGE EN EL MULTIVERSO DE LA LOCURA");
-        System.out.printtln("1. JURASSIC WORLD DOMINIO");
-        System.out.printtln("2. LIGHTYEAR");
+        System.out.println("3. DOCTOR STRANGE EN EL MULTIVERSO DE LA LOCURA");
+        System.out.println("1. JURASSIC WORLD DOMINIO");
+        System.out.println("2. LIGHTYEAR");
         
         int Op;
         Scanner input = new Scanner(System.in);

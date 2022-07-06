@@ -55,7 +55,7 @@ public class Entrada {
         System.out.println("2X1 800");
         System.out.println("//////////////////////////////////////////////////////////////////////////////////");
         System.out.println("3. CLUB");
-        system.out.println("2X1 $800");
+        System.out.println("2X1 $800");
         System.out.println("//////////////////////////////////////////////////////////////////////////////////");
         System.out.println("4. Naranja");
         System.out.println("2X1 $800");

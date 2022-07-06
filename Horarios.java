@@ -200,7 +200,7 @@ public class Horarios extends Cartelera{
         }
         public void Sonic2_dia(){
             Añadir_Dias();
-            Scanner input = Scanner(System.in);
+            Scanner input = new Scanner(System.in);
             int Op = input.nextInt();
             switch(Op){
                 case 1:
@@ -249,7 +249,7 @@ public class Horarios extends Cartelera{
         }
         public void TopGunMaverick(){
             Añadir_Dias();
-            Scanner input = new Scanner();
+            Scanner input = new Scanner(System.in);
             int Op = input.nextInt();
             switch (Op) {
                 case 1:
